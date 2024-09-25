@@ -2,17 +2,15 @@
 
 namespace TaskApp.Models
 {
-    public class Category
+    public class CategoryDTO
     {
-        [Key]
-        public int Id { get; set; }
-
+        [Required]
         public string Name { get; set; } = "";
 
+        [Required]
         public string Abbreviation { get; set; } = "";
 
+        [Required]
         public string Color { get; set; } = "";
-
-        public List<MyTask>? Tasks { get; set; } = new List<MyTask>();
     }
 }

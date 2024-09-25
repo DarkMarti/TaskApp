@@ -2,7 +2,7 @@
 
 namespace TaskApp.Models
 { 
-    public class Task
+    public class MyTask
     {
         [Key]
         public int Id { get; set; }
